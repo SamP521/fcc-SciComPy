@@ -4,7 +4,7 @@ This is my submission for the first of five projects that are part of FreeCodeCa
 
 ## Assignment
 Students in primary school often arrange arithmetic problems vertically to make them easier to solve. For example, "235 + 52" becomes:
-```
+```txt
   235
 +  52
 -----
@@ -13,12 +13,15 @@ Finish the arithmetic_arranger function that receives a list of strings which ar
 
 ## Example
 
-#### Function Call:  
+### Function Call
 
-`arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])`  
-
-#### Output:
+```python
+arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"])
 ```
+
+### Output
+
+```txt
   32         1      9999      523
 +  8    - 3801    + 9999    -  49
 ----    ------    ------    -----
